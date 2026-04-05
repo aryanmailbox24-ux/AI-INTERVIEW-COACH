@@ -7,5 +7,6 @@ export default defineConfig({
   base: '/AI-Powered-Interview-Coaching/',
   optimizeDeps: {
     exclude: ['lucide-react'],
+    include: ['lodash', 'lodash-es'],
   },
 });

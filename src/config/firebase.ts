@@ -58,3 +58,26 @@ export const storage = getStorage(app);
 export const analytics = typeof window !== 'undefined' ? getAnalytics(app) : null;
 
 export default app;
+
+
+// Import the functions you need from the SDKs you need
+// import { initializeApp } from "firebase/app";
+// import { getAnalytics } from "firebase/analytics";
+// // TODO: Add SDKs for Firebase products that you want to use
+// // https://firebase.google.com/docs/web/setup#available-libraries
+
+// // Your web app's Firebase configuration
+// // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// const firebaseConfig = {
+//   apiKey: "AIzaSyCVRTsJDXg-iVOCmcEjyMARSax84dqopu4",
+//   authDomain: "interview-coach-d8e97.firebaseapp.com",
+//   projectId: "interview-coach-d8e97",
+//   storageBucket: "interview-coach-d8e97.firebasestorage.app",
+//   messagingSenderId: "573254914987",
+//   appId: "1:573254914987:web:b58d19d27bf13d925f38ee",
+//   measurementId: "G-PGLXHFJ0PP"
+// };
+
+// // Initialize Firebase
+// const app = initializeApp(firebaseConfig);
+// const analytics = getAnalytics(app);
