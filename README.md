@@ -26,7 +26,7 @@ InterviewAce is a comprehensive interview preparation platform that combines com
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Ayu240/AI-Interview-Coach.git
+git clone 
 cd AI-Interview-Coach
 ```
 
