@@ -14,7 +14,7 @@ InterviewAce is a comprehensive interview preparation platform that combines com
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React 18 + TypeScript
+- **Frontend**: React 18 + TypeScript + Vite
 - **Styling**: Tailwind CSS
 - **Authentication**: Firebase Auth with Google OAuth
 - **Database**: Cloud Firestore
@@ -26,7 +26,7 @@ InterviewAce is a comprehensive interview preparation platform that combines com
 
 1. Clone the repository:
 ```bash
-git clone 
+git clone https://github.com/Ayu240/AI-Interview-Coach.git
 cd AI-Interview-Coach
 ```
 
@@ -101,7 +101,7 @@ service cloud.firestore {
     match /users/{userId} {
       allow read, write: if request.auth != null && request.auth.uid == userId;
     }
-
+    
     // Users can read and write their own interview sessions
     match /interviewSessions/{sessionId} {
       allow read, write: if request.auth != null && request.auth.uid == resource.data.userId;
