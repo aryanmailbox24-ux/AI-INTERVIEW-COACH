@@ -5,6 +5,9 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   base: '/AI-Powered-Interview-Coaching/',
+  build: {
+    chunkSizeWarningLimit: 2000,
+  },
   optimizeDeps: {
     exclude: ['lucide-react'],
     include: ['lodash', 'lodash-es'],
